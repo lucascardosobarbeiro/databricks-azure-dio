@@ -25,7 +25,8 @@ Siga os passos abaixo para replicar o ambiente e executar a análise.
 Para executar o notebook, é necessário um cluster computacional. Este projeto foi desenvolvido utilizando um cluster temporário com uma configuração simples, ideal para análises exploratórias.
 
 **Configuração do Cluster:**
-![Configuração do Cluster](http://googleusercontent.com/file_content/4)
+<img width="300" height="300" alt="repo3" src="https://github.com/user-attachments/assets/98a60c9c-36b3-45dc-9c82-639039a2f94c" />
+
 
 ### 2. Integração com o Git
 
