@@ -25,7 +25,8 @@ Siga os passos abaixo para replicar o ambiente e executar a análise.
 Para executar o notebook, é necessário um cluster computacional. Este projeto foi desenvolvido utilizando um cluster temporário com uma configuração simples, ideal para análises exploratórias.
 
 **Configuração do Cluster:**
-<img width="300" height="300" alt="repo3" src="https://github.com/user-attachments/assets/98a60c9c-36b3-45dc-9c82-639039a2f94c" />
+<img width="400" height="400" alt="cluster" src="https://github.com/user-attachments/assets/b5345b86-b173-44c7-9138-f955e8574a44" />
+
 
 
 ### 2. Integração com o Git
@@ -35,12 +36,11 @@ O versionamento do código é feito diretamente na interface do Databricks atrav
 **Passo A: Conectar a Conta Git**
 Primeiro, conecte sua conta do GitHub ao Databricks em `User Settings > Git integration`, utilizando um Personal Access Token (PAT).
 
-![Integração Git com Databricks](http://googleusercontent.com/file_content/1)
 
 **Passo B: Clonar o Repositório**
 Depois, adicione o repositório ao seu workspace através da seção "Repos".
 
-![Adicionando um Repositório](http://googleusercontent.com/file_content/3)
+
 
 ### 3. Conjunto de Dados
 
@@ -52,11 +52,13 @@ Para este projeto de estudo, o arquivo de dados foi incluído diretamente no rep
 
 O notebook `analise-produtos.py` contém o código SQL que lê os dados da tabela `products` e realiza uma contagem de produtos agrupados por categoria.
 
+
+
 ### 5. Salvando o Trabalho (Commit & Push)
 
 Após adicionar o notebook ao repositório, todas as alterações são salvas (commitadas) de volta para o GitHub através da interface do Databricks.
 
-![Commit e Push das alterações](http://googleusercontent.com/file_content/5)
+
 
 ---
 
@@ -64,6 +66,7 @@ Após adicionar o notebook ao repositório, todas as alterações são salvas (c
 
 A execução do notebook gera uma visualização de gráfico de barras que mostra a distribuição da quantidade de produtos por categoria. Isso permite identificar rapidamente quais são as categorias com o maior número de itens cadastrados.
 
-![Gráfico de Produtos por Categoria](http://googleusercontent.com/file_content/0)
+<img width="400" height="400" alt="repo3" src="https://github.com/user-attachments/assets/ae0b9174-d3c1-49f5-b17a-7e7728d2194a" />
+<img width="400" height="400" alt="repo 5" src="https://github.com/user-attachments/assets/65323e81-afee-4f0a-8406-6a5a4b2cff34" />
 
 Este gráfico é um exemplo simples de como podemos extrair insights valiosos de forma rápida e visual utilizando as ferramentas do Azure Databricks.
